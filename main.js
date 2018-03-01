@@ -50,3 +50,17 @@ document.getElementById("challenge-2").innerHTML = "<h3>" + changeNum(string1)+ 
 // var string2 = string1.replace(/3/g, "a").replace(/7/g,"b");
 // var string3 = string2.replace(/a/g, 7).replace(/b/g, 3);
 // console.log(string3);
+
+
+//Challenge 3
+var challengeThreeInputA = [0, 0, 0, 0, 0, 0, 0, 0.55, 0, 0];
+var answer3 = "";
+
+for (var a = 0; a < challengeThreeInputA.length; a++){
+    if(challengeThreeInputA[0] !== challengeThreeInputA[a]){
+     answer3 = challengeThreeInputA[a];
+    }
+}
+
+document.getElementById("challenge-3").innerHTML = "<h3>" + answer3 + "</h3>";
+
