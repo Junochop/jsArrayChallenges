@@ -32,3 +32,21 @@ if (total1 >= total2){
 }
 
 
+//Challenge 2: Option 1
+
+var challengeTwoInputA = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+var challengeTwoInputB = [12, 13, 14];
+var string1 = challengeTwoInputA.toString();
+
+function changeNum(xxx){
+    xxx = xxx.replace(/3/g, "a").replace(/7/g,"b");
+    xxx = xxx.replace(/a/g, 7).replace(/b/g, 3);
+    return xxx;
+}
+
+document.getElementById("challenge-2").innerHTML = "<h3>" + changeNum(string1)+ "</h3>";
+
+//Challenge 2: Option 2
+// var string2 = string1.replace(/3/g, "a").replace(/7/g,"b");
+// var string3 = string2.replace(/a/g, 7).replace(/b/g, 3);
+// console.log(string3);
