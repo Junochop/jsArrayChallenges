@@ -64,3 +64,12 @@ for (var a = 0; a < challengeThreeInputA.length; a++){
 
 document.getElementById("challenge-3").innerHTML = "<h3>" + answer3 + "</h3>";
 
+//Challenge 4
+var challengeFourInputA = [3, 8, 1, 2, 4, 12];
+var answer4 = [];
+for (var b = 0; b < challengeFourInputA.length; b++) {
+
+    answer4.push(challengeFourInputA[b] * 2);
+}
+
+document.getElementById("challenge-4").innerHTML = "<h3>" + answer4 + "</h3>";
